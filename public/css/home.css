@@ -1,0 +1,58 @@
+/* .row{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: rgb(242, 189, 121);
+    padding-bottom: 1%;
+    
+} */
+
+.table{
+    color:black;
+}
+.d-flex{
+    color: black;
+}
+.collapse a{
+    font-weight: 600;
+}
+.card{
+    background-color: #b19f91;
+    color: black;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    opacity: 0.9;
+    
+}
+.card:hover {
+    transform: translateY(-5px); /* subtle lift */
+    opacity: 1; /* fade in fully */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* optional: add depth */
+  }
+nav{
+    background-color: #2f1b0c;
+    color:#352208;
+}
+/* public/css/home.css */
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 600;
+  }
+  
+  .navbar .navbar-brand {
+    color:#e6e6e6 !important;
+  }
+  .navbar .nav-link:hover{
+    background-color: #d8c4b6;
+    color:#3e5879;
+    border-radius: 2px;
+  }
+  /* Stronger specificity for hover */
+.navbar .nav-link.active:hover,
+.navbar .nav-link:hover {
+  background-color: #d8c4b6 !important;
+  color: #2f1b0c !important;
+  border-radius: 2px;
+}
+.head h1{
+  color: #213555;
+}
